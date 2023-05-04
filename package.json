@@ -4,13 +4,14 @@
   "description": "Rancher API helper lib, to be used inside jenkins for deploying services.",
   "main": "main.js",
   "dependencies": {
+    "minimist": "^1.2.8",
     "request": "^2.73.0",
     "request-promise-native": "^1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/bin.js"
   },
-  "author": "Daniel Locatelli",
+  "author": "Surhive",
   "license": "Apache2.0"
 }
