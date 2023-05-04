@@ -1,12 +1,15 @@
 {
   "name": "rancher-upgrade-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rancher API helper lib, to be used inside jenkins for deploying services.",
   "main": "main.js",
   "dependencies": {
     "minimist": "^1.2.8",
     "request": "^2.73.0",
     "request-promise-native": "^1.0.2"
+  },
+  "bin": {
+    "rancher-upgrade-lib": "lib/bin.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
